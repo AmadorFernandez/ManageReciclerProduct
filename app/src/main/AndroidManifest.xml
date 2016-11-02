@@ -21,6 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.amador.recyclerManageProduct.view.RegisterProductActivity"></activity>
+        <activity android:name=".presenter.AcountSettingActivity"></activity>
+        <activity android:name=".presenter.Preference"></activity>
     </application>
 
 </manifest>

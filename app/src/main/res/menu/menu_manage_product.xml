@@ -16,12 +16,14 @@
         app:showAsAction="always" />
 
     <item
+        android:id="@+id/preferencesGenerals"
         android:title="@string/action_generals_settings"
         android:orderInCategory="2"
         app:showAsAction="never"
         />
 
     <item
+        android:id="@+id/userPreferences"
         android:title="@string/action_users_settings"
         android:orderInCategory="3"
         app:showAsAction="never"

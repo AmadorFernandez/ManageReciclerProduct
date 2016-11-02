@@ -12,6 +12,8 @@ import android.view.MenuItem;
 import com.amador.recyclerManageProduct.adapter.ProductAdapterRecicler;
 
 import com.amador.recyclerManageProduct.R;
+import com.amador.recyclerManageProduct.presenter.AcountSettingActivity;
+import com.amador.recyclerManageProduct.presenter.Preference;
 
 public class RecycleProductActivity extends AppCompatActivity {
 
@@ -61,6 +63,13 @@ public class RecycleProductActivity extends AppCompatActivity {
                 adapter.orderBy(asc);
                 asc = !asc;
                 break;
+            case R.id.userPreferences:
+                startActivity(new Intent(RecycleProductActivity.this, Preference.class));
+                break;
+            case R.id.preferencesGenerals:
+                startActivity(new Intent(RecycleProductActivity.this, AcountSettingActivity.class));
+                break;
+
 
         }
 
@@ -74,6 +83,7 @@ public class RecycleProductActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK)
                     // Add product
                     break;
+
         }
     }
 }

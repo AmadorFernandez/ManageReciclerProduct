@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ManageProduct.iml" filepath="$PROJECT_DIR$/ManageProduct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManageReciclerProduct.iml" filepath="$PROJECT_DIR$/ManageReciclerProduct.iml" />
       <module fileurl="file://$PROJECT_DIR$/RecycleManageProduct.iml" filepath="$PROJECT_DIR$/RecycleManageProduct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
