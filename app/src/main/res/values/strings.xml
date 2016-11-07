@@ -20,4 +20,20 @@
     <string name="action_sortbyname_product">Ordenar por nombre</string>
     <string name="action_generals_settings">Preferencias Generales</string>
     <string name="action_users_settings">Opciones de usuario</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_paswd">Contraseña</string>
+    <string name="text_email">Email</string>
+    <string name="text_locality">Localidad</string>
+    <string name="text_province">Provincia</string>
+    <string name="text_genero">Genero</string>
+    <string name="text_men">H</string>
+    <string name="text_woman">M</string>
+    <string name="text_question">Otro</string>
+    <string name="text_polity">Deseo suscribirme a todas las novedades</string>
+    <string name="text_read">He leido y acepto todos los terminos</string>
+    <string name="text_register">Registrarse</string>
+    <string name="text_name_user">Usuario</string>
+    <string name="pref_remenber">Recordar datos de usuario en el login</string>
+    <string name="text_summary_email">Email de la cuenta de usuario</string>
+    <string name="text_summary_pwd">Contraseña de acceso a la aplicacion</string>
 </resources>
