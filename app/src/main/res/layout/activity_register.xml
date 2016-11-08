@@ -122,51 +122,52 @@
         />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txvGenero"
-        android:text="@string/text_genero"
+        android:text="@string/text_type"
         android:layout_below="@+id/linear"
-        android:gravity="center"
+
         />
 
     <RadioGroup
         android:layout_below="@+id/txvGenero"
         android:id="@+id/rg"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center"
+
         >
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rbMen"
-            android:text="@string/text_men"
+            android:id="@+id/rbPerson"
+            android:text="@string/text_person"
             android:checked="true"
             />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/rbWoman"
-            android:text="@string/text_woman"
-            />
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/rbIndefinid"
-            android:text="@string/text_question"
+            android:id="@+id/rbService"
+            android:text="@string/text_service"
             />
 
     </RadioGroup>
 
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerType"
+        android:layout_below="@+id/rg"
+        android:visibility="gone"
+        />
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/rg"
+        android:layout_below="@+id/spinnerType"
         android:text="@string/text_polity"
         android:id="@+id/checSus"
         android:checked="true"
@@ -178,10 +179,11 @@
         android:layout_below="@+id/checSus"
         android:text="@string/text_read"
         android:id="@+id/checkRead"
+
         />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnRegister"
         android:text="@string/text_register"

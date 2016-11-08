@@ -36,4 +36,17 @@
     <string name="pref_remenber">Recordar datos de usuario en el login</string>
     <string name="text_summary_email">Email de la cuenta de usuario</string>
     <string name="text_summary_pwd">Contraseña de acceso a la aplicacion</string>
+    <string name="text_create_acout">¿Aún no tienes una cuenta?</string>
+    <string name="text_remember">Recordar mis datos</string>
+    <string name="text_type">Tipo de negocio</string>
+    <string name="text_person">Persona</string>
+    <string name="text_service">Servicio</string>
+
+    <string-array name="serviceTypes">
+
+        <item>Alimentacion</item>
+        <item>Servicios</item>
+        <item>Moda</item>
+
+    </string-array>
 </resources>
